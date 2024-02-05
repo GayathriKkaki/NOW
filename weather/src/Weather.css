@@ -1,4 +1,114 @@
-.card{
+
+.weather-container{
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-container .weather-header{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.weather-container .weather-header .weather-label{
+    /* background-color: lightsalmon; */
+    color: orange;
+
+}
+
+.weather-container .weather-header .weather-search-container{
+    /* background-color: green; */
+    display: flex ;
+    width: 45%;
+}
+
+
+.weather-search-form{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    /* background-color: pink; */
+}
+
+.submit-btn{
+    width: 20%;
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.search-bar{
+    height: 40px;
+    width: 80%;
+    border: 1px solid orange;
+    border-radius: 10px;
+    
+}
+
+@media screen and (max-width:1000px) {
+    .weather-container .weather-header{
+        /* background-color: cyan; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .weather-container .weather-header .weather-label{
+        width: 100%;
+        /* background-color: pink; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .weather-container .weather-header .weather-search-container{
+        width: 100% ;
+        /* background-color: green; */
+    }
+}
+
+
+.weather-container .weather-body{
+    /* background-color: blue; */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+
+
+.weather-container .weather-body{
+    /* background-color: lightgreen; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    /* padding-right: 30px; */
+
+
+
+}
+
+.weather-item{
+    /* background-color: blue; */
+    width: 15%;
+    flex: 1 1 300px;
+}
+
+.weather-table-item{
+    width: 100%;
+    /* height: 100%; */
+}
+
+/* .card{
     width:900px;
     height:500px;
     margin:auto;
@@ -32,7 +142,6 @@ input[type='text']{
     border: 1px solid black;
 }
 
-/* Responsiveness */
 @media(max-width:768px){
     .card{
         width:100%
@@ -51,8 +160,4 @@ input[type='text']{
     {
         width:100%
     }
-}
-
-
-
-
+} */
