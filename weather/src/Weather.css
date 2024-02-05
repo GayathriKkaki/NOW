@@ -1,0 +1,58 @@
+.card{
+    width:900px;
+    height:500px;
+    margin:auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #c07839, #d13114);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+}
+
+.card-title {
+    color: orange;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+input[type='submit']{
+    background-color: #c07839;
+    border-radius: 15px;
+    padding:15px
+}
+
+input[type='text']{
+    border-radius: 15px;
+    padding:15px;
+}
+
+.tb,th{
+    border: 1px solid black;
+}
+
+/* Responsiveness */
+@media(max-width:768px){
+    .card{
+        width:100%
+    }
+}
+
+@media(max-width:200px){
+    input[type='submit']
+    {
+        width:100%
+    }
+}
+
+@media(max-width:200px){
+    input[type='text']
+    {
+        width:100%
+    }
+}
+
+
+
+
